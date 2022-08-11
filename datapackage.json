@@ -1,18 +1,22 @@
 {
+  "name": "test-tabulator-json",
   "resources": [
-    {
-      "name": "countries",
-      "type": "table",
-      "path": "data/countries.csv",
-      "scheme": "file",
-      "format": "csv",
-      "encoding": "utf-8",
-      "mediatype": "text/csv",
-      "dialect": {
-        "headerRows": [
-          2
+    { "name": "first-resource",
+      "path": "data/table.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "number"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          }
         ]
-      },
+      }
+    },
+    {"name": "number-two", "path": "table-reverse.csv",
       "schema": {
         "fields": [
           {
@@ -20,19 +24,10 @@
             "type": "integer"
           },
           {
-            "name": "neighbor_id",
-            "type": "string"
-          },
-          {
             "name": "name",
-            "type": "string"
-          },
-          {
-            "name": "population",
             "type": "string"
           }
         ]
-      }
-    }
+      }}
   ]
 }
