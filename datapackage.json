@@ -2,7 +2,7 @@
   "name": "test-tabulator",
   "resources": [
     { "name": "first-resource",
-      "path": "data/table.xls",
+      "path": "table.xls",
       "schema": {
         "fields": [
           {
