@@ -1,5 +1,5 @@
 {
-  "name": "test-tabulator-json",
+  "name": "test-tabulator",
   "resources": [
     { "name": "first-resource",
       "path": "data/table.xls",
